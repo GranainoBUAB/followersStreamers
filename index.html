@@ -18,34 +18,6 @@
 
     <h1 class="h1Titulo">TOP Streamers</h1>
 
-    <!-- <div class="iframeFollowers">
-        <table class="table-bordered border-primary text-light">
-
-            <tbody>
-
-
-                <tr>
-
-                    <td>La Mejor Clase</td>
-                    <td><iframe height="80px" width="300px" frameborder="0"
-                            src=https://livecounts.io/embed/tiktok-live-follower-counter/lamejorclaseyt
-                            style="border: 0; width:300px; height:80px;"></iframe></td>
-                </tr>
-                <tr>
-                    <td>Knekro</td>
-                    <td>TikTok</td>
-                </tr>
-                <tr>
-
-                    <td>Susyrox</td>
-                    <td>TikTok</td>
-                </tr>
-
-
-            </tbody>
-        </table>
-    </div> -->
-
     <div class="iframeFollowers">
 
         <div class="boxStreamer">
@@ -157,26 +129,28 @@
         <div class="boxStreamer">
             <div id="countik-widgetpuertaracing"></div>
             <script>
-              (function() {
-                var countikWidget = document.createElement('script');
-                countikWidget.src = 'https://countik.com/widget.js';
-                countikWidget.async = true;
-                countikWidget.onload = function() {
-                  if (typeof window.initializeCountikWidget === 'function') {
-                    window.initializeCountikWidget({
-                      container: '#countik-widgetpuertaracing',
-                      themeColor: '#444444',
-                      uniqueId: 'puertaracing',
-                      language: 'es'
-                    });
-                  }
-                };
-                var firstScript = document.getElementsByTagName('script')[0];
-                firstScript.parentNode.insertBefore(countikWidget, firstScript);
-              })();
+                (function () {
+                    var countikWidget = document.createElement('script');
+                    countikWidget.src = 'https://countik.com/widget.js';
+                    countikWidget.async = true;
+                    countikWidget.onload = function () {
+                        if (typeof window.initializeCountikWidget === 'function') {
+                            window.initializeCountikWidget({
+                                container: '#countik-widgetpuertaracing',
+                                themeColor: '#444444',
+                                uniqueId: 'puertaracing',
+                                language: 'es'
+                            });
+                        }
+                    };
+                    var firstScript = document.getElementsByTagName('script')[0];
+                    firstScript.parentNode.insertBefore(countikWidget, firstScript);
+                })();
             </script>
-            <a href="https://countik.com/es/user/puertaracing" target="_blank" class="pow-countik" style="font-size:11px;color:#333;display:block;padding:4px 3px;text-decoration:none;">Impulsado por Countik™</a>
-          
+            <a href="https://countik.com/es/user/puertaracing" target="_blank" class="pow-countik"
+                style="font-size:11px;color:#333;display:block;padding:4px 3px;text-decoration:none;">Impulsado por
+                Countik™</a>
+
         </div>
 
         <div class="boxStreamer">
