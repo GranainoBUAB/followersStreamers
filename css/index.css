@@ -40,10 +40,16 @@
     font-size: 150px;
 } */
 
-/* .iframeFollowers{
-    margin-top: 5px;  
-    color: aliceblue;  
-} */
+.iframeFollowers{
+display:flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+/* align-items: center; */
+/* align-content: flex-start; */
+}
 
 /* .socialNetwork{
     display:flex;
@@ -55,3 +61,7 @@
 /* .table{
     color: aliceblue;
 } */
+
+.boxStreamer{
+    width: 300px;
+}
