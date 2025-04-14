@@ -1,4 +1,4 @@
 
 # followersStreamers
 
-github pages : https://granainobuab.github.io/followersStreamers/
+github pages : https://jmgranabuab.github.io/followersStreamers/
